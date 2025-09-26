@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Feedback form for website vistors to contact owner with queries and feedback-->
+        <title>Contact Me Form</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+ 
+    <!--Content of the form-->
+    <body>
+    <section>
+        <div id="wrapper">
+            <!--Heading of form to inform user-->
+                <h1> Query & Feedback Form </h1>
+              
+                <!-- Fix: Properly open the form tag, removed self-closing -->
+                <form action="mailto:shifa.faisal@ontariotechu.net?subject=Feedback from website"
+                    enctype="text/plain" method="post" name="ContactForm">
+
+                <!--Adding text fields-->
+                <!-- Removed duplicate empty input field for name -->
+                <!--Basic contact information for user collection-->
+                <p><label for="name"> Name: </label> 
+                <input type="text" name="name" placeholder="Enter your name" size="32" required></p>
+
+                <!-- Fixed stray closing bracket ']' -->
+                <p><label for="email"> Email: </label>
+                <input type="email" name="email" placeholder="Enter your email" size="32" required></p>
+
+                <!--Need to add <br> for allowing to type more amount of text that will be visable to user-->
+                <p><label for="message"> Message, concern or feedback: </label><br>
+                <!-- Fixed textarea syntax: removed input tag inside and corrected cols -->
+                <textarea name="message" cols="65" rows="7" placeholder="Enter your message for the ownwer of the website" required></textarea></p>
+
+                <!--Dropdown menu question for involving different type o engagement-->
+                <p><label for="where"> Primary reason for visiting my portfolio:</label>
+                    <select name="where">
+                        <option value="Exploring my skills"> Exploring my skills </option>
+                        <option value="Looking for collaboration"> Looking for collaboration </option>
+                        <option value="Hiring or Recruitment"> Hiring or Recruitment </option>
+                        <option value="Curiosity"> Curiosity </option>
+                        <option value="other"> Other </option>
+                    </select>
+                </p>
+
+                <!--Reset and submit buttons for ending users interaction with the form page-->
+                <p><input type="submit" value="Submit"/></p>
+                <p><input type="reset" value="Reset form fields"/></p>
+
+            </form>
+        </div>
+    </section>
+    </body>
+</html>
