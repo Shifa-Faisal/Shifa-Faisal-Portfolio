@@ -2,16 +2,16 @@
 /*CSS file styling for portfolio website*/
 
 body {
-    background: linear-gradient(to bottom, rgb(255, 71, 200) 0%, rgb(177, 0, 118) 100%);
+    background: linear-gradient(to bottom, #d97314 0%, #bf3939);
     color: white;
-    font-family: 'Franklin Gothic Medium', sans-serif,'Impact';
+    font-family: 'cursive', 'optima', 'sans-serif';
     padding: 0px;
     margin: 0px;
 }
 
 #banner {
     text-align: center;
-    background-color: lightblue;
+    background-color: #BF247A;
     color : white;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -21,28 +21,29 @@ body {
     width: 960px;
     margin-left: auto;
     margin-right: auto;
-    background-color: mediumslateblue;
+    background-color: #242359;
+    color: white; 
 } 
 
 #right-column {
     float: right;
     width: 600px;
     height: 600px;
-    background-color: skyblue;
-    color:blue;
+    background-color: #242359;
+    color: white;
 }
 
 #left-column {
     float: left;
     width: 360px;
     height: 600px;
-    background-color: midnightblue;
+    background-color:  #B12BBC;
     color: white;
 }
 
 #footer {
     text-align: center;
-    background-color: lightblue;
+    background-color: #BF247A;
     color: white;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -51,3 +52,18 @@ body {
 h1,h2,h3,h4,h5,h6,p,li {
     margin-left: 15px;
 }
+
+figure {
+  text-align: center;
+  margin: 30px auto;
+}
+
+figure img {
+  width: 250px;
+  height: auto;
+}
+
+figure figcaption {
+  margin-top: 10px;
+  font-size: 14px;
+  color: white; 
