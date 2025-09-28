@@ -51,19 +51,43 @@ body {
 
 h1,h2,h3,h4,h5,h6,p,li {
     margin-left: 15px;
+    text-align: center;
 }
 
-figure {
-  text-align: center;
-  margin: 30px auto;
+
+.video-section video {
+    text-align: center;
+    margin: 20px auto;
+    display: block; 
+    width: 40%;
+    heigth: auto;
 }
 
-figure img {
-  width: 250px;
-  height: auto;
+.video-section figcaption {
+    text-align: center;
+    font-style: italic;
+    color: white;
+    margin-top: 5px;
 }
 
-figure figcaption {
-  margin-top: 10px;
-  font-size: 14px;
-  color: white; 
+video {
+    width: 40%;
+    height: auto;
+    border: 2px solid white;
+
+}
+
+.intro-img img {
+    width: 45%;
+    height: auto;
+    text-align: center;
+    margin:0 auto;
+    display: block;
+}
+
+.intro-img figcaption {
+    text-align: center;
+    font-style: italic;
+    color: white;
+    margin-top: 5px;
+}
