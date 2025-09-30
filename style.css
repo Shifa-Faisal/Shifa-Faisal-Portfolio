@@ -1,57 +1,79 @@
 @charset "UTF-8";
 /*CSS file styling for portfolio website*/
 
+
 body {
-    background: linear-gradient(to bottom, #d97314 0%, #bf3939);
+    background: linear-gradient(to bottom, #590209 0%, #bc2029 100%);
     color: white;
-    font-family: 'cursive', 'optima', 'sans-serif';
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
     padding: 0px;
     margin: 0px;
+    height: 100%
+
 }
+
 
 #banner {
     text-align: center;
-    background-color: #BF247A;
-    color : white;
+    background-color: #400101;
+    color : #bfaaaa;
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
 
 #wrapper {
     width: 960px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #242359;
-    color: white; 
-} 
+    background-color: #bfaaaa;
+}
+
 
 #right-column {
     float: right;
     width: 600px;
     height: 600px;
-    background-color: #242359;
-    color: white;
+    background-color: #bfaaaa;
+    color: #260101;
 }
+
 
 #left-column {
     float: left;
     width: 360px;
     height: 600px;
-    background-color:  #B12BBC;
+    background-color: #bc2029;
     color: white;
+    /* to remove bullet points from page names/links */ 
+    list-style: none;
 }
+
+#left-column ul {
+    list-style: none;
+    margin: 0;
+    padding; 5px;
+}
+
+#left-column li {
+    link-style: none;
+    margin: 9px; 
+}
+
 
 #footer {
     text-align: center;
-    background-color: #BF247A;
+    background-color: #400101;
     color: white;
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
+
 h1,h2,h3,h4,h5,h6,p,li {
     margin-left: 15px;
-    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 
@@ -78,7 +100,7 @@ video {
 }
 
 .intro-img img {
-    width: 45%;
+    width: 40%;
     height: auto;
     text-align: center;
     margin:0 auto;
@@ -86,6 +108,51 @@ video {
 }
 
 .intro-img figcaption {
+    text-align: center;
+    font-style: italic;
+    color: white;
+    margin-top: 5px;
+}
+
+.taskmanager-img img {
+    width: 40%;
+    height: auto;
+    text-align: center;
+    margin:0 auto;
+    display: block;
+}
+
+.taskmanager-img figcaption {
+    text-align: center;
+    font-style: italic;
+    color: white;
+    margin-top: 5px;
+}
+
+.calculator-img img {
+    width: 40%;
+    height: auto;
+    text-align: center;
+    margin:0 auto;
+    display: block;
+}
+
+.calculator-img figcaption {
+    text-align: center;
+    font-style: italic;
+    color: white;
+    margin-top: 5px;
+}
+
+.haunted-img img {
+    width: 40%;
+    height: auto;
+    text-align: center;
+    margin:0 auto;
+    display: block;
+}
+
+.haunted-img figcaption {
     text-align: center;
     font-style: italic;
     color: white;
