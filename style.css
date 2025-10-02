@@ -3,12 +3,13 @@
 
 
 body {
-    background: linear-gradient(to bottom, #590209 0%, #bc2029 100%);
+    background: #BFAAAA
     color: white;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
     padding: 0px;
     margin: 0px;
     height: 100%
+
 
 }
 
@@ -23,10 +24,19 @@ body {
 
 
 #wrapper {
-    width: 960px;
     margin-left: auto;
     margin-right: auto;
     background-color: #bfaaaa;
+    #wrapper {
+    width: 100%;
+    /* 100% of the viewport height so fits perfectly into multiple screen */ 
+    height: 100vh; 
+    margin: 0;
+    padding: 0;
+    
+    /* Container for alignment control */ 
+    display: flex;
+    align-items: center;
 }
 
 
