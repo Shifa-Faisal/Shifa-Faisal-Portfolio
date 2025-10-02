@@ -48,15 +48,15 @@
     body {
         font-family: Verdana, Geneva, Arial, sans-serif;
         background-color: white;
-        text-size: 20px;
-    } 
+     } 
+
     #banner {
     height: auto;
     text-align: center;
     background-color: #400101;
     color: white; 
     }
-    
+
     .haunted-img figcaption {
         color: black; 
     }
@@ -72,3 +72,4 @@
     .video-section figcaption {
         color: black; 
     }
+} 
