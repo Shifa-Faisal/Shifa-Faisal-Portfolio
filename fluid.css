@@ -1,67 +1,41 @@
+/* Fuild CSS Document */
 @charset "UTF-8";
-/*CSS file styling for portfolio website*/
-
-<link href="fluid.css" rel="stylesheet" type="text/css"> 
 
 body {
-    background: #400101;
-    color: #bfaaaa;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: Verdana, Geneva, Arial, sans-serif;
     padding: 0px;
     margin: 0px;
-    height: 100%;}
-
+}
 
 #banner {
+    height: auto;
     text-align: center;
-    background-color: #400101;
     color: #bfaaaa;
-    padding-top: 5px;
-    padding-bottom: 5px;
 }
 
 #navigation {
-    text-align: center; 
-}
-#main {
-    background-color: #bc2029;
-    color: white;
-    padding: 20px;
-    width: 100%; 
-    min-height: 600px; 
-}
-
-#navigation ul {
-    /* to remove bullet points from page names/links */ 
     list-style: none;
-    margin: 15px;
-    padding: 15px;
-    gap: 10px; 
+    margin: 5px;
+    padding: 0;
+    gap: 5px; 
 }
 
 #navigation li {
-    /* to remove bullet points from page names/links */ 
     link-style: none;
-    margin: 9px; 
+    margin: 5px;
     display: inline-block; /* Align menu items inline */
 }
 
+#main {
+    padding: 20px;
+    width: 100%; 
+    min-height: auto; 
+}
 
 #footer {
     text-align: center;
-    background-color: #400101;
-    color: white;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
 }
-
-
-h1,h2,h3,h4,h5,h6,p,li {
-    margin-left: 15px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
 
 .video-section video {
     text-align: center;
@@ -74,7 +48,6 @@ h1,h2,h3,h4,h5,h6,p,li {
 .video-section figcaption {
     text-align: center;
     font-style: italic;
-    color: white;
     margin-top: 5px;
 }
 
