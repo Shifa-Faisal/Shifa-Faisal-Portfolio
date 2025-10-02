@@ -1,12 +1,11 @@
 @charset "UTF-8";
 /*CSS file styling for portfolio website*/
 
-<link href="fluid.css" rel="stylesheet" type="text/css"> 
 
 body {
-    background: #400101;
+    background: #260101;
     color: #bfaaaa;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 0px;
     margin: 0px;
     height: 100%;}
@@ -14,7 +13,7 @@ body {
 
 #banner {
     text-align: center;
-    background-color: #400101;
+    background-color: #260101; ;
     color: #bfaaaa;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -24,7 +23,7 @@ body {
     text-align: center; 
 }
 #main {
-    background-color: #bc2029;
+    background-color: #400101;
     color: white;
     padding: 20px;
     width: 100%; 
@@ -46,15 +45,17 @@ body {
     display: inline-block; /* Align menu items inline */
 }
 
+#navigation a {
+    color: #BFAAAA
+}
 
 #footer {
     text-align: center;
-    background-color: #400101;
+    background-color: #260101;
     color: white;
     padding-top: 5px;
     padding-bottom: 5px;
 }
-
 
 h1,h2,h3,h4,h5,h6,p,li {
     margin-left: 15px;
@@ -62,6 +63,25 @@ h1,h2,h3,h4,h5,h6,p,li {
     margin-bottom: 10px;
 }
 
+form {
+    /* Background fits based on the viewport */ 
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #590209 0%, #260101 100%);
+    /* Aligning the form content in the center and on top of each other vertically */
+    margin: 0;
+    /*Margin of zero with combination to auto centers the content*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 500px;
+    padding-left: 500px;
+    gap: 25px;
+    color: #BFAAAA;
+}
+            
+form h2, h3, h4 {
+    text-align: center;
+    margin-bottom: 25px;}
+}
 
 .video-section video {
     text-align: center;

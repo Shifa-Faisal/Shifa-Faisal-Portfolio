@@ -1,119 +1,66 @@
 /* Fuild CSS Document */
 @charset "UTF-8";
-
-body {
-    font-family: Verdana, Geneva, Arial, sans-serif;
-    padding: 0px;
-    margin: 0px;
+/* Style for Desktops */ 
+@media screen and (min-width:960px) {
 }
 
-#banner {
-    height: auto;
-    text-align: center;
-    color: #bfaaaa;
-}
-
-#navigation {
-    list-style: none;
-    margin: 5px;
-    padding: 0;
-    gap: 5px; 
-}
-
-#navigation li {
-    link-style: none;
-    margin: 5px;
-    display: inline-block; /* Align menu items inline */
-}
-
-#main {
+/* Style for Tablets*/ 
+@media only screen and (min-width: 481px) and (max-width:960px) {
+    form {
+        padding: 15px;
+        max-width: 90%; 
+    /* The only difference for tablets would be screen and form size */
+    /* Background fits based on the viewport */ 
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #590209 0%, #260101 100%)
+    /*Margin of zero with combination to auto centers the content*/
+    margin: 0 auto;
     padding: 20px;
-    width: 100%; 
-    min-height: auto; 
-}
-
-#footer {
+    max-width: 600px; 
+    color: #BFAAAA;
     text-align: center;
-    padding-top: 10px;
+}
 }
 
-.video-section video {
-    text-align: center;
-    margin: 20px auto;
-    display: block; 
-    width: 40%;
-    height: auto;
-}
-
-.video-section figcaption {
-    text-align: center;
-    font-style: italic;
-    margin-top: 5px;
-}
-
-video {
-    width: 40%;
-    height: auto;
-    border: 2px solid white;
-
-}
-
-.intro-img img {
-    width: 40%;
-    height: auto;
-    text-align: center;
-    margin:0 auto;
-    display: block;
-}
-
-.intro-img figcaption {
-    text-align: center;
-    font-style: italic;
-    color: white;
-    margin-top: 5px;
-}
-
-.taskmanager-img img {
-    width: 40%;
+/* Style for Phones*/ 
+@media screen and (max-width:480px) {
+    form { 
+        padding: 8px;
+        max-width: 100%; 
+        /* Background fits based on the viewport */ 
+        min-height: 100vh;
+        background: linear-gradient(to bottom, #590209 0%, #260101 100%);
+        /*Margin of zero with combination to auto centers the content*/
+        margin: 0 auto;
+        padding: 20px;
+        max-width: 600px; 
+        color: #BFAAAA;
+        text-align: center;
+    } 
+    
+    /* Phone screens make it harder to see low contrast and smaller text so all is updated */ 
+    #main {
+        background-color: #bc2029;
+        color: white;
+        padding: 20px;
+        width: 100%; 
+        } 
+    body {
+        font-family: Verdana, Geneva, Arial, sans-serif;
+        background-color: white;
+        text-size-adjust: 18px;
+    } 
+    #banner {
     height: auto;
     text-align: center;
-    margin:0 auto;
-    display: block;
-}
+    background-color: #400101;
+    color: white; 
 
-.taskmanager-img figcaption {
-    text-align: center;
-    font-style: italic;
-    color: white;
-    margin-top: 5px;
-}
-
-.calculator-img img {
-    width: 40%;
-    height: auto;
-    text-align: center;
-    margin:0 auto;
-    display: block;
-}
-
-.calculator-img figcaption {
-    text-align: center;
-    font-style: italic;
-    color: white;
-    margin-top: 5px;
-}
-
-.haunted-img img {
-    width: 40%;
-    height: auto;
-    text-align: center;
-    margin:0 auto;
-    display: block;
-}
-
-.haunted-img figcaption {
-    text-align: center;
-    font-style: italic;
-    color: white;
-    margin-top: 5px;
-}
+    }
+    .haunted-img figcaption,
+    .calculator-img figcaption, 
+    .taskmanager-img figcaption,  
+    .intro-img figcaption, 
+    .video-section figcaption {
+        color: black; 
+    }

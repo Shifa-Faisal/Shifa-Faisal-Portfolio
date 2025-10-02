@@ -5,26 +5,10 @@
         <meta charset="utf-8">
         <!--Feedback form for website vistors to contact owner with queries and feedback-->
         <title>Contact Me</title>
+        <!--Link css file-->
         <link rel="stylesheet" type="text/css" href="style.css">
-
-        <style>
-            form {
-                /* Background fits based on the viewport */ 
-                min-height: 100vh;
-                background: linear-gradient(to bottom, #590209 0%, #260101 100%);
-                /* Aligning the form content in the center and on top of each other vertically */
-                margin: 0;
-                padding: 0;
-                gap: 15px;
-                color: #BFAAAA;
-            }
-            form h2, h3, h4 {
-                text-align: center;
-                margin-bottom: 25px;}
-            }
-        </style>
-   
-   
+        <link rel="stylesheet" type="text/css" href="fluid.css">
+        <meta name="viewport" content="width=device-width">
     </head>
  
     <!--Content of the form-->
@@ -58,8 +42,8 @@
             <textarea name="message" cols="65" rows="7" placeholder="Enter your message for the ownwer of the website" required></textarea></p>
 
             <!--Dropdown menu question for involving different type o engagement-->
-            <p><label for="where"> Primary reason for visiting my portfolio:</label>
-                <select name="where">
+            <p><label for="why"> Primary reason for visiting my portfolio:</label>
+                <select name="why">
                     <option value="Exploring my skills"> Exploring my skills </option>
                     <option value="Looking for collaboration"> Looking for collaboration </option>
                     <option value="Hiring or Recruitment"> Hiring or Recruitment </option>
