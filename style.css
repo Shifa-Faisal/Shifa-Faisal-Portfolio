@@ -40,7 +40,7 @@ body {
 
 #navigation li {
     /* to remove bullet points from page names/links */ 
-    link-style: none;
+    list-style : none; 
     margin: 9px; 
     display: inline-block; /* Align menu items inline */
 }
@@ -80,7 +80,7 @@ form {
             
 form h2, h3, h4 {
     text-align: center;
-    margin-bottom: 25px;}
+    margin-bottom: 25px;
 }
 
 .video-section video {
