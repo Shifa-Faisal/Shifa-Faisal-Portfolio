@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*CSS file styling for portfolio website*/
 
-
+/* General basic styling */ 
 body {
     background: #260101;
     color: #bfaaaa;
@@ -10,18 +10,22 @@ body {
     margin: 0px;
     height: 100%;}
 
-
+/* Banner styling */ 
 #banner {
     text-align: center;
-    background-color: #260101; ;
+    background-color: #260101; 
+    /* Match body background */ 
     color: #bfaaaa;
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
+/* Navigation bar styling */ 
 #navigation {
     text-align: center; 
 }
+
+/* Main content styling */ 
 #main {
     background-color: #400101;
     color: white;
@@ -31,7 +35,7 @@ body {
 }
 
 #navigation ul {
-    /* to remove bullet points from page names/links */ 
+    /* To remove bullet points from page names/links */ 
     list-style: none;
     margin: 15px;
     padding: 15px;
@@ -39,16 +43,19 @@ body {
 }
 
 #navigation li {
-    /* to remove bullet points from page names/links */ 
+    /* To remove bullet points from page names/links */ 
     list-style : none; 
     margin: 9px; 
-    display: inline-block; /* Align menu items inline */
+    display: inline-block; 
+    /* Align menu items inline/horizontaly */
 }
 
 #navigation a {
+    /* Custom colour for links text */ 
     color: #BFAAAA
 }
 
+/* Footer styling */ 
 #footer {
     text-align: center;
     background-color: #260101;
@@ -57,12 +64,14 @@ body {
     padding-bottom: 5px;
 }
 
+/* Heading styling */ 
 h1,h2,h3,h4,h5,h6,p,li {
     margin-left: 15px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
+/* Form styling */ 
 form {
     /* Background fits based on the viewport */ 
     min-height: 100vh;
@@ -83,7 +92,7 @@ form h2, h3, h4 {
     margin-bottom: 25px;
 }
 
-
+/* Video, image and caption styling */ 
 .video-section video {
     text-align: center;
     margin: 20px auto;
