@@ -1,5 +1,6 @@
 @charset "UTF-8";
-/* Fuild CSS Document */
+/* Fluid CSS Document */
+
 /* Style for Desktops */ 
 @media screen and (min-width:960px) {
 }
@@ -18,6 +19,7 @@
     padding: 20px;
     max-width: 600px; 
     color: #BFAAAA;
+    /* Center text inside form */ 
     text-align: center;
 }
 }
@@ -25,6 +27,7 @@
 /* Style for Phones*/ 
 @media screen and (max-width:480px) {
     form { 
+        /* Smaller padding for smaller screens */ 
         padding: 8px;
         max-width: 100%; 
         /* Background fits based on the viewport */ 
@@ -46,17 +49,20 @@
         width: 100%; 
         } 
     body {
+        /* Common and eaasy to read fonts with brighter background for better readability */ 
         font-family: Verdana, Geneva, Arial, sans-serif;
         background-color: white;
      } 
 
     #banner {
+    /* Easier to read banner */ 
     height: auto;
     text-align: center;
     background-color: #400101;
     color: white; 
     }
 
+    /*  Darker caption colour for eaiser readabilty */ 
     .haunted-img figcaption {
         color: black; 
     }
