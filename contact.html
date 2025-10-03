@@ -4,6 +4,7 @@
     <head>
         <meta charset="utf-8">
         <!--Feedback form for website vistors to contact owner with queries and feedback-->
+        <!--Title visible on browser--> 
         <title>Contact Me</title>
         <!--Link css file-->
         <link rel="stylesheet" type="text/css" href="style.css">
@@ -24,21 +25,22 @@
             enctype="text/plain"
             method="post"
             name="Form">
-        
-
+            <!--Call to action: owner gets email sent when user fills out form-->
+            <!--Post: sumbit data--> 
+                
             <!--Adding text fields-->
             <!-- Removed duplicate empty input field for name -->
             <!--Basic contact information for user collection-->
             <p><label for="name"> Name: </label> 
+            <!--Text input-->
             <input type="text" name="name" placeholder="Enter your name" size="32" required></p>
 
-            <!-- Fixed stray closing bracket ']' -->
+            <!--Email input--> 
             <p><label for="email"> Email: </label>
             <input type="email" name="email" placeholder="Enter your email" size="32" required></p>
 
-            <!--Need to add <br> for allowing to type more amount of text that will be visable to user-->
+            <!--Need to add <br> for allowing to type more amount of text that will be visible to user-->
             <p><label for="message"> Message, concern or feedback: </label><br>
-            <!-- Fixed textarea syntax: removed input tag inside and corrected cols -->
             <textarea name="message" cols="65" rows="7" placeholder="Enter your message for the ownwer of the website" required></textarea></p>
 
             <!--Dropdown menu question for involving different type o engagement-->
